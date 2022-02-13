@@ -1,0 +1,41 @@
+{
+    "dir": "1tr",
+    "Lang": "en",
+    "name": "mytodo App",
+    "short_name": "todo",
+    "scope": "/",
+    "display": "standalone",
+    "background_color":"purple",
+    "theme_color":"#af7eeb",
+    "description": "A wonderful todo list",
+    "orientation": "any",
+    "icons":[
+        {
+            "src": "https://cdn.glitch.com/f961eba8-228f-46a7-a1bc-a4b0b7dc17e2%2F16.png?v=1621179755875",
+            "sizes": "16x16",
+            "type": "image/png"
+          },
+          {
+            "src": "https://cdn.glitch.com/f961eba8-228f-46a7-a1bc-a4b0b7dc17e2%2F32.png?v=1621179755765",
+            "sizes": "32x32",
+            "type": "image/png"
+          },
+          {
+            "src": "https://cdn.glitch.com/f961eba8-228f-46a7-a1bc-a4b0b7dc17e2%2F180.png?v=1621179755765",
+            "sizes": "180x180",
+            "type": "image/png"
+          },
+          {
+            "src": "https://cdn.glitch.com/f961eba8-228f-46a7-a1bc-a4b0b7dc17e2%2F192.png?v=1621179755794",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "https://cdn.glitch.com/f961eba8-228f-46a7-a1bc-a4b0b7dc17e2%2F512.png?v=1621179755950",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        
+    ]
+
+}

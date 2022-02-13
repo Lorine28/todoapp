@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon"href="https://cdn.glitch.com/f961eba8-228f-46a7-a1bc-a4b0b7dc17e2%2Ffavicon.ico?v=1621179743925" >
+        <!-- <link="manifest" href="manifest.json"> -->
+    </head>
+
+    <body>
+
+            <header>
+                <h1>TO-DO APP</h1>
+            </header>
+    
+        <main>
+            <div class="new">
+                <input  id="new" type="text" placeholder= "ADD NEW ITEMS" class="new-input"/>
+                <button id="add" class="new-button"  disabled="true">ADD</button>
+                <span class="new-label">ADD NEW ITEMS</span>
+            </div> 
+            <ul id="tasks" >
+
+                <li >
+                    <label class="item">
+                        <input class="item-check" type="checkbox">
+                        <span class="item-text">todo things</span>
+                        <button class="delete">delete</button>
+                    </label>
+                    
+                    <label class="new" for="new">
+                        <input id="new" class="new-input" type="text" placeholder="add new item">                    
+                        <button id="add" class="new-button" disabled>add</button>
+                    </label>
+               </li> 
+            </ul>
+        </main>
+
+ 
+        
+            <template id="taskTemplate">
+               
+                
+            
+            </template>
+    
+
+        <script src="/script.js"></script>
+
+    </body>
+</html>
